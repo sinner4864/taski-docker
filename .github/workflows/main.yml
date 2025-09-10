@@ -89,7 +89,7 @@ jobs:
           # на сервере и в docker-compose.yml не указывать версию
           tags: sinner4864/taski_backend:latest
 
-    deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: 
       # Дождёмся билда всех образов Taski
